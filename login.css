@@ -1,8 +1,17 @@
-.container { 
+html {
+    position: relative;
+}
+
+.container {
     width: 30%;
-    margin-top: 10%;
+    margin-top: 100px;
     box-shadow: 0 3px 20px rgba(0,0,0,0.3);
-    padding: 40px;
+    padding: 30px;
+}
+
+.container img {
+    width: 70px;
+    border: 2px solid #777676;
 }
 
 button {
